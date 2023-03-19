@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>520</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(237, 205, 187);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>801</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 14pt &quot;Goudy Old Style&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Establish D2D connection</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>160</y>
+      <width>311</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 14pt &quot;Goudy Old Style&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Enter Drone ID to connect</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Name_edt">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>180</y>
+      <width>281</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0,0,0);
+font: 75 10pt &quot;Goudy Old Style&quot;;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="drone_btn">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>290</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: rgb(237, 188, 160);
+font: italic 10pt &quot;Goudy Old Style&quot;;
+	
+color: rgb(0,0,0);
+border: 1px solid;
+border-radius: 15px;
+}
+QPushButton:hover {
+background-color: rgb(255, 233, 206);
+color:rgb(0,0,0);
+}</string>
+    </property>
+    <property name="text">
+     <string>Connect</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>410</y>
+      <width>831</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 12pt &quot;Goudy Old Style&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Enter Drone ID to connect</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
